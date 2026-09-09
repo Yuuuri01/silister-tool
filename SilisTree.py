@@ -116,7 +116,7 @@ def main() -> None:
         print("command while providing detailed descriptions for every file it finds.")
         print()
         print("usage")
-        print("    SilisTree folder_name")
+        print("    ./SilisTree folder_name")
         print("    python3 SilisTree.py folder_name")
         print()
         print("how it works")
