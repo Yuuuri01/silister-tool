@@ -1,6 +1,6 @@
-# 🌳 -SILISTER TOOL-
+# 🌳 SilisTree
 
-> A stylized, professional, and modular command-line file exploration and classification utility inspired by the standard `tree` command, enhanced with custom color themes, ASCII art banners, and native system integration.
+> A stylized, professional, and modular command-line file exploration and classification utility inspired by the standard `tree` command, enhanced with custom color themes, ASCII art banners, and intelligent automation.
 
 ---
 
@@ -14,19 +14,11 @@
 
 ---
 
-## 🛠️ Prerequisites & Dependencies
+## 🛠️ Prerequisites & Automatic Setup
 
-The tool relies on Python's standard libraries, but it requires the `figlet` utility for the ASCII art banner animation. 
+> **Zero Manual Configuration Required!** The tool is designed to check for dependencies automatically. If `figlet` is missing from your system, `SilisTree` handles or prompts the installation process seamlessly.
 
-If `figlet` is missing on your system, you can install it manually based on your distribution:
-
-```bash
-# Debian / Ubuntu / Kali Linux
-sudo apt install figlet
-
-# macOS (Homebrew)
-brew install figlet
-```
+---
 
 ---
 
