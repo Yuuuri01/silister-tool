@@ -107,7 +107,7 @@ def process_path_type(type: str) ->str:
 
 def main() -> None:
     if len(sys.argv) != 2:
-        print(colors.warning_theme("type: help sub to see manuel"))
+        print(colors.warning_theme("try: help sub to see manuel"))
         return
     elif sys.argv[1] == "help":
         banners.banner()
