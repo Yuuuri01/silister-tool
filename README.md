@@ -1,4 +1,4 @@
-# 🌳 SILISTER TOOL
+# 🌳 -SILISTER TOOL-
 
 > A stylized, professional, and modular command-line file exploration and classification utility inspired by the standard `tree` command, enhanced with custom color themes, ASCII art banners, and native system integration.
 
