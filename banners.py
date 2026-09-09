@@ -17,7 +17,7 @@ def install(name_tool):
         print(f"{colors.GREEN}figlet: Installed successfully!{colors.RESET}")
         print(f"{colors.RED}###################################{colors.RESET}\n")
     except:
-        print(f"{colors.RED}all ready installed or tool not found!{colors.RESET}")
+        print(f"{colors.RED}already installed or 'figlet' not found!{colors.RESET}")
 
 class banners:
 
