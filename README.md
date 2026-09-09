@@ -41,7 +41,7 @@ cd silister-tool
 ```
 
 ### 2. Make the Script Executable (`chmod +x`)
-Add execution permissions to your main script and ensure it has a proper python shebang (`#!/usr/bin/env python3`) at the very top of `check_sub.py`:
+Add execution permissions to your main script and ensure it has a proper python shebang (`#!/usr/bin/env python3`) at the very top of `SilisTree.py`:
 ```bash
 chmod +x SilisTree.py
 ```
