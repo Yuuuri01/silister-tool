@@ -153,8 +153,8 @@ def main() -> None:
                 print(f"{colors.GRAY}-------------------------------------------------{colors.RESET}")
         except OSError as e:
             print(f"{e}")
-            print("Usage: python3 sub_map <directory_path>")
-            print("Try 'python3 sub_map help' for more information.")
+            print("Usage: python3 SilisTree <directory_path>")
+            print("Try 'python3 SilisTree help' for more information.")
 
 if __name__ == "__main__":
     main()
