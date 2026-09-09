@@ -6,11 +6,9 @@ import sys
 import subprocess
 
 class colors:
-    # ANSI Color Codes
     RESET = "\033[0m"
     BOLD = "\033[1m"
 
-    # Colors
     BLUE = "\033[94m"
     GREEN = "\033[92m"
     YELLOW = "\033[93m"   
@@ -128,7 +126,7 @@ def main() -> None:
         print()
         print("support and feedback")
         print("    if you encounter any unexpected behavior or have questions, please")
-        print("    feel free to reach out to us via email at world_tools@proton.YOURI")
+        print("    open an issue on <github>: https://github.com/youri-01/silister-tool/issues")
         return
     
     elif len(sys.argv) == 2:
