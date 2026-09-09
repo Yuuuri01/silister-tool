@@ -43,13 +43,13 @@ cd silister-tool
 ### 2. Make the Script Executable (`chmod +x`)
 Add execution permissions to your main script and ensure it has a proper python shebang (`#!/usr/bin/env python3`) at the very top of `check_sub.py`:
 ```bash
-chmod +x check_sub.py
+chmod +x SilisTree.py
 ```
 
 ### 3. Run Globally from Any Directory (Optional)
 To run `silister` from anywhere without typing the full path, you can create a symbolic link in `/usr/local/bin`:
 ```bash
-sudo ln -s $(pwd)/check_sub.py /usr/local/bin/silister
+sudo ln -s $(pwd)/SilisTree.py /usr/local/bin/silister
 ```
 
 Now you can use it globally like a native Linux command:
@@ -66,17 +66,17 @@ silister help
 If you didn't set up the global symlink, run it directly via Python:
 
 ```bash
-python3 check_sub.py <folder_name>
+python3 SilisTree.py <folder_name>
 ```
 
 ### Example:
 ```bash
-python3 check_sub.py Module3
+python3 SilisTree.py Module3
 ```
 
 ### Help Manual:
 ```bash
-python3 check_sub.py help
+python3 SilisTree.py help
 ```
 
 ---
@@ -84,7 +84,7 @@ python3 check_sub.py help
 ## 📂 Project Structure
 
 ```text
-├── check_sub.py       # Main entry point and directory traversal logic
+├── SilisTree.py       # Main entry point and directory traversal logic
 ├── banners.py         # ASCII art rendering and dynamic color animation
 ├── colors.py          # ANSI escape code classes and theme management
 └── README.md          # Documentation
